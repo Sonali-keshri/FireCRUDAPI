@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
     "start": "npm run lint && npm run build && cd server && npm install && node server.js"
   },
   "keywords": [],
